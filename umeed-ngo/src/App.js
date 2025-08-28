@@ -6,6 +6,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Donate from "./components/Donate";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   // Refs for smooth scrolling
@@ -48,6 +49,7 @@ function App() {
       <div ref={contactRef}>
         <Contact />
       </div>
+      <Footer/>
     </Router>
   );
 }
